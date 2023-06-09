@@ -20,7 +20,7 @@ do
     fi
     echo "Compiling .$file.md..."
     pandoc ".$file.md" \
-        --from commonmark \
+        --from gfm \
         --standalone \
         --css /sakura.css \
         --output "..$file.html"
