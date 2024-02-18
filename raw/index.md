@@ -1,5 +1,5 @@
 ---
-title: 'クロスロード'
-...
+pagetitle: 'クロスロード'
+---
 
-[github](https://github.com/lfsorf)
+# [クロスロード](https://bangumi.tv/subject/114209)

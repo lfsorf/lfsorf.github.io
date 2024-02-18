@@ -11,8 +11,11 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -25,10 +28,8 @@
   <![endif]-->
 </head>
 <body>
-<header id="title-block-header">
-<h1 class="title">クロスロード</h1>
-</header>
-<p><a href="https://github.com/lfsorf">github</a></p>
+<h1 id="クロスロード"><a
+href="https://bangumi.tv/subject/114209">クロスロード</a></h1>
 </body>
 </html>
-<!--f86fc5389be90daa2fbc21037aef5bad  ./index.md-->
+<!--cc4ce457d4b8610f79da8b84cfa522d9  ./index.md-->
